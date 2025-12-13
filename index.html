@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="responsive websites using bootstrap,html and css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Responsive website using bootstrap</title>
+    <style>
+        .nav-link {
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: rgb(34, 33, 33);
+        }
+
+        .hero-section {
+            background-image: url(images/4bg.jpg );
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 550px;
+            color: beige;
+        }
+
+        .images {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-left: 30px;
+        }
+
+        .ser-img {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+
+        }
+
+        #contact {
+            width: 100%;
+            height: 400px;
+           
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- navbar section -->
+        <nav class="navbar navbar-expand-lg  navbar-expand-md  bg-info   fixed-top">
+            <div class="container">
+                <h2 class="navbar-brand fs-3 fw-bold"> Logo</h2>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class=" collapse navbar-collapse " id="navbarToggler">
+                    <ul class="nav  me-auto mb-1">
+                        <li class="nav-item"> <a class="nav-link fs-5 " href="#home"> Home </a></li>
+                        <li class="nav-item"> <a class="nav-link fs-5" href="#about"> About </a></li>
+                        <li class="nav-item"> <a class="nav-link fs-5" href="#service"> Service </a></li>
+                        <li class="nav-item"> <a class="nav-link fs-5" href="#contact"> contact</a></li>
+                    </ul>
+                    
+                
+                    <div>
+                    <button class="btn btn-warning fs-5 "> Chat</button>
+                    </div>
+                    </div>
+            </div>
+
+            
+
+        </nav>
+    </header>
+    <main>
+        <!-- hero secton -->
+        <section id="home">
+            <div class="hero-section text-center d-flex align-items-center">
+                <div class="container">
+                    <h3 class="mt-3 fw-bold"> LET'S DISCOVER THE WORLD TOGETHER</h3>
+                    <P class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis odio non sunt unde
+                        ipsa iure
+                        nisi magnam, earum perferendis quod voluptatum. Hic assumenda in sequi non nemo unde recusandae
+                        rem.</P>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- about section -->
+        <section id="about">
+            <div class="container my-5">
+                <h2 class="text-center fs-3 fw-bold mt-5"> FAVORITE ROOMS </h2>
+                <p class="lead text-center mt-3"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                    quaerat id consequatur, minima
+                    pariatur eos labore architecto.</p>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="images/luxury room.jpg" class="images" alt="">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="card-title"> LUXURY ROOM </h3>
+                                    <p class="card-text  text-primary fs-3 fw-bold mb-1"> $1000</p>
+                                </div>
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A natus
+                                    fugit optio totam.
+                                    Tempore illum velit odit quos excepturi mollitia eum tempora officia fugit alias
+                                    repudiandae molestias possimus, doloribus obcaecati.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="images/family room.jpg" class="images" alt="">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="card-title"> FAMILY ROOM</h3>
+                                    <p class="card-text  text-primary fs-3 fw-bold mb-1"> $900</p>
+                                </div>
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A natus
+                                    fugit optio totam.
+                                    Tempore illum velit odit quos excepturi mollitia eum tempora officia fugit alias
+                                    repudiandae molestias possimus, doloribus obcaecati.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="images/couple room.jpg" class="images" alt="">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="card-title"> COUPLE ROOM </h3>
+                                    <p class="card-text  text-primary fs-3 fw-bold mb-1"> $900</p>
+                                </div>
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A natus
+                                    fugit optio totam.
+                                    Tempore illum velit odit quos excepturi mollitia eum tempora officia fugit alias
+                                    repudiandae molestias possimus, doloribus obcaecati.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="images/dining set1.jpg" class="images" alt="">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="card-title"> DINING AREA </h3>
+                                    <p class="card-text  text-primary fs-3 fw-bold mb-1"> $100</p>
+                                </div>
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A natus
+                                    fugit optio totam.
+                                    Tempore illum velit odit quos excepturi mollitia eum tempora officia fugit alias
+                                    repudiandae molestias possimus, doloribus obcaecati.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="images/events.jpg" class="images" alt="">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="card-title"> EVENTS </h3>
+                                    <p class="card-text  text-primary fs-3 fw-bold mb-1"> $300</p>
+                                </div>
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A natus
+                                    fugit optio totam.
+                                    Tempore illum velit odit quos excepturi mollitia eum tempora officia fugit alias
+                                    repudiandae molestias possimus, doloribus obcaecati.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="images/nit party.jpg" class="images" alt="">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="card-title"> NIGHT PARTY </h3>
+                                    <p class="card-text  text-primary fs-3 fw-bold mb-1"> $800</p>
+                                </div>
+                                <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A natus
+                                    fugit optio totam.
+                                    Tempore illum velit odit quos excepturi mollitia eum tempora officia fugit alias
+                                    repudiandae molestias possimus, doloribus obcaecati.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <!-- service section -->
+        <section id="service">
+            <div class="container my-6">
+                <h2 class="text-center fs-3 fw-bold mt-5"> OUR SPECIAL SERVICES </h2>
+                <p class="lead text-center mt-5"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                    quaerat id consequatur, minima
+                    pariatur eos labore architecto.</p>
+            </div>
+            <div class="container mt-5">
+
+                <div class="row g-4">
+
+                    <div class="col-12  col-md-3 col-lg-3  ">
+                        <div class="ser-img">
+                            <img src="images/internet.png" class="img " alt="">
+                            <h2 class="fs-5 fw-bold mt-4 px-3"> FREE WIFI </h2>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-3 col-lg-3">
+                        <div class="ser-img">
+                            <img src="images/key-room (1).png" class="img" alt="">
+                            <h2 class="fs-5 fw-bold mt-4"> FREE ROOM SERVICE </h2>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-3 col-lg-3">
+                        <div class="ser-img">
+                            <img src="images/parking-area.png" class="img" alt="">
+                            <h2 class="fs-5 fw-bold mt-4"> FREE PARKING </h2>
+                        </div>
+                    </div>
+                    <div class="col-12  col-md-3 col-lg-3 ">
+                        <div class="ser-img">
+                            <img src="images/customer-support.png" class="img" alt="">
+                            <h2 class="fs-5 fw-bold mt-4"> HELP AND SUPPORT</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- contact section -->
+            <section id="contact">
+                <div class="container my-5 g-4">
+                    <h2 class="text-center text-primary fw-bold m-5"> Follow Us</h2>
+                    <div class="d-grid mt-5 col-6 mx-auto ">
+                        <a class="btn btn-warning fs-2 fw-bold" href="registration.html"> BOOK NOW !!! </a>
+                    </div>
+                    
+                        <div class="row row-cols-auto justify-content-center align-items-center m-1">
+                        <div class="col p-1 m-5 "><img src="images/twitter.png" alt="" class="icon" width="50px" height="50px">
+                        </div>
+                        <div class="col p-1 m-5"> <img src="images/mail.png" alt="" class="icon" width="50px" height="50px">
+                        </div>
+                        <div class="col  p-1 m-5"> <img src="images/play.png" alt="" class="icon" width="60px" height="60px">
+                        </div>
+                        <div class="col p-1 m-5"> <img src="images/communication.png" alt="" class="icon" width="50px"
+                                height="50px"></div>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+    <!--  footer section -->
+    <footer>
+                  <p class="text-center">Logo &copy;2025. All Rights Reserved </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

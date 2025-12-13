@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="registration form of responsive website">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Register now</title>
+    <style>
+        .nav-link {
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: rgb(34, 33, 33);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!-- navbar section -->
+        <nav class="navbar navbar-expand-lg  navbar-expand-md bg-info fixed-top">
+            <div class="container">
+                <h2 class="navbar-brand fs-3 fw-bold"> Logo</h2>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                    <span class="navbar-toggler-icon"></span></button>
+
+                <div class=" collapse navbar-collapse"  id="navbarToggler">
+                    <ul class="nav me-auto mb-1">
+                        <li class="nav-item"> <a class="nav-link fs-5" href="index.html"> Home </a></li>
+
+                        <li class="nav-item"> <a class="nav-link fs-5" href="index.html"> contact</a></li>
+                    </ul>
+                    <div>
+                    <button class="btn btn-warning fs-5"> Chat</button>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div style="height: 100px; margin: auto;"></div>
+            <!-- register form starts -->
+            <div class="container my-5">
+                <h2 class="text-center mt-5 fs-3 fw-bold "> Registration Form</h2>
+                <p class="text-center mt-3 lead mb-5"> Book your room to enjoy your space</p>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        <form action="success.html" class="border p-4 rounded shadow-sm">
+                            <div class="row g-5 mt-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold" for="">First name</label>
+                                    <input class="form-control" type="text" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold" for="">Last name</label>
+                                    <input class="form-control" type="text" required>
+                                </div>
+                            </div>
+                            <div class="row g-5 mt-1 ">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold" for="">Mobile number</label>
+                                    <input class="form-control" type="tel" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold" for="">Email id</label>
+                                    <input class="form-control" type="email" required>
+                                </div>
+                            </div>
+
+                            <div class="row g-5 mt-1">
+                                <div class="col-md-6 ">
+                                    <label class="form-label fw-bold" for="">Arrival date </label>
+                                    <input class="form-control" type="date" required>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <label class="form-label fw-bold" for=""> Departure date</label>
+                                    <input class="form-control" type="date" required>
+                                </div>
+                            </div>
+                            <div class="row g-5 mt-1">
+                                <div class="col-md-6 ">
+                                    <label class="form-label fw-bold" for="">Number of persons </label>
+                                    <input class="form-control" type="number" required>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <label class="form-label fw-bold" for=""> Number of rooms</label>
+                                    <input class="form-control" type="number" required>
+                                </div>
+                            </div>
+                            <div class="row g-5 mt-1">
+                                <div class="col-md-12 ">
+                                    <label class="form-label fw-bold" for="">Address </label>
+                                    <input class="form-control" type="text" required>
+                                </div>
+                            </div>
+                            <div class="row g-5 mt-1">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold" for="">City </label>
+                                    <input class="form-control" type="text" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold" for=""> state</label>
+                                    <input class="form-control" type="text" required>
+                                </div>
+                            </div>
+                            
+                            <div class="d-grid mt-5 col-12 mx-auto ">
+                                <button class="btn btn-warning fs-2 fw-bold"> BOOK NOW </button>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section -->
+      <footer>
+                  <p class="text-center">Logo &copy;2025. All Rights Reserved </p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
